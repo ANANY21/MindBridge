@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+
+# deps / builds
+**/node_modules
+**/dist
+**/dist-ssr
+
+# logs
+*.log
+logs
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

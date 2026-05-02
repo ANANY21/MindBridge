@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 252 253 255;
+    --fg: 16 20 26;
+    --muted: 107 114 128;
+    --card: 255 255 255;
+    --border: 226 232 240;
+
+    --brand-a: 147 197 253; /* pastel blue */
+    --brand-b: 196 181 253; /* lavender */
+    --brand-c: 167 243 208; /* mint */
+  }
+
+  .dark {
+    --bg: 10 12 18;
+    --fg: 235 238 245;
+    --muted: 156 163 175;
+    --card: 16 18 26;
+    --border: 35 39 52;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply antialiased;
+    background: rgb(var(--bg));
+    color: rgb(var(--fg));
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+      Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/60 dark:bg-white/5 backdrop-blur-xl border border-white/30 dark:border-white/10;
+  }
+
+  .soft-shadow {
+    box-shadow:
+      0 20px 60px rgba(60, 90, 140, 0.18),
+      0 8px 24px rgba(80, 120, 200, 0.12);
+  }
+}
