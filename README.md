@@ -1,6 +1,6 @@
-# MindEase (Web + Mobile-ready)
+# MindBridge (Web + Mobile-ready)
 
-MindEase is a calming mental wellness platform with a beautiful landing page, a modern chatbot UI, mood tracking + streaks/badges, a resource library, and a verified helpline directory.
+MindBridge is a calming mental wellness platform with a beautiful landing page, a modern chatbot UI, mood tracking + streaks/badges, a resource library, and a verified helpline directory.
 
 ## Tech
 
